@@ -1,0 +1,72 @@
+body {
+    background-image: url('../Images/bach.jpg');
+    background-size:50%;
+    background-repeat: nonrepeat;
+  } 
+
+h2{
+  margin-top: 10px;
+    font-size: 6rem;
+  color: black;
+  font-family: "Arvo", cursive;
+  text-shadow: 5px 0 #e4aa16;
+  text-align: center;
+}
+p{
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: rgb(7, 8, 8);
+    margin-left: 20px;
+}
+h5{
+    font-size: large;
+    font-weight: 700;
+    margin-left: 50px;
+}
+h3{
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.btn{
+    border-radius:50%;
+    font-size: 3rem;
+    border-color: #e98c00;
+    border-width: 0.5rem;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .round_btn1{
+    position: absolute;
+    margin-left: 20%;
+  }
+  .round_btn2{
+    position: absolute;
+    margin-left: 60%;
+  }
+
+/* Table */
+table, th, td
+{
+    border: 10px ;
+    border-radius: 10px;
+    border-style: groove;
+    
+}
+th:nth-child(even) {
+    background-color: #f38d71;
+}
+th:nth-child(odd) {
+    background-color: #f3dd71;
+}
+th{
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.drumTable_shift{
+    margin-left: 400px;
+}
+  
